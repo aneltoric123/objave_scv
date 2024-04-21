@@ -1,0 +1,131 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  text-align: center;
+  color: #333;
+  margin-top: 50px;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: right;
+}
+
+nav ul {
+  display: flex;
+}
+
+nav li {
+  margin-right: 40px;
+}
+
+nav a {
+  color: #fff;
+}
+
+main {
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+form {
+  width: 60%;
+  max-width: 1000px;
+  margin: 50px auto;
+  background-color: #fff;
+  padding: 30px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  padding-right: 60px;
+}
+
+label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="date"],
+input[type="email"],
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  font-size: 14px;
+}
+
+input[type="radio"] {
+  margin-right: 5px;
+}
+
+.radio-group {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.radio-group label {
+  margin-right: 10px;
+}
+
+.radio-group input[type="radio"] {
+  margin-right: 5px;
+}
+
+select {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  font-size: 14px;
+  appearance: none;
+  background-color: #fff;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath d='M7 10l5 5 5-5z'/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: right 10px center;
+}
+
+select option {
+  padding: 10px;
+}
+
+input[type="file"] {
+  margin-bottom: 20px;
+}
+
+input[type="submit"] {
+  background-color: #3498db;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #2980b9;
+}

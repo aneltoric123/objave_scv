@@ -1,0 +1,158 @@
+/* Global styles */
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+  }
+  
+  a {
+    text-decoration: none;
+    color: #333;
+  }
+  
+  ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+  }
+  
+  header nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  header nav ul li {
+    display: inline;
+    margin-right: 1rem;
+  }
+  
+  header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  #home {
+    margin-top: 0.4rem;
+    margin-left: 1rem;
+  }
+  
+  header nav ul li#logout {
+    background-color: #f76c6c;
+    padding: 5px 10px;
+    border-radius: 5px;
+  }
+  
+  main {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  h1 {
+    font-size: 36px;
+    margin-top: 0;
+  }
+  
+  p {
+    font-size: 18px;
+    line-height: 1.5;
+  }
+  
+  #logout {
+    margin-left: auto;
+  }
+  
+  /* Specific styles */
+  header nav a:hover {
+    text-decoration: underline;
+  }
+  
+  header nav li.current a {
+    font-weight: bold;
+  }
+  
+  .form-container {
+    background-color: #fff;
+    padding: 2rem;
+    border-radius: 5px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+    margin-top: 2rem;
+  }
+  
+  .form-group {
+    margin-bottom: 1.5rem;
+  }
+  
+  .form-group label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+  }
+  
+  .form-group input,
+  .form-group select {
+    padding: 0.5rem;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    width: 100%;
+  }
+  
+  .form-group select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path fill="%23666" d="M12 16.234L7.402 11.64l-1.402 1.402L12 18.039l6.582-6.997-1.402-1.402z"/></svg>') no-repeat right 0.75rem center/8px 10px;
+  }
+  
+  .form-group button[type=submit],
+  .form-group a.back-btn {
+    display: inline-block;
+    padding: 8px 16px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-right: 1rem;
+    cursor: pointer;
+  }
+  
+  .form-group a.back-btn {
+    background-color: #ccc;
+  }
+  
+  .form-group button[type=submit]:hover,
+  .form-group a.back-btn:hover {
+    background-color: #666;
+  }
+  
+  .save-btn {
+    display: inline-block;
+    padding: 8px 16px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-right: 1rem;
+  }
+
+  .back-btn {
+    display: inline-block;
+    padding: 8px 16px;
+    background-color: #3d3d3d;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+  }
+  

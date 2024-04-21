@@ -1,0 +1,151 @@
+/* Global styles */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  color: #333;
+}
+
+#home{
+  margin-top: 0.4rem;
+  margin-left: 1rem;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+}
+
+header nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+header nav ul li {
+  display: inline;
+  margin-right: 1rem;
+}
+
+header nav ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+header nav ul li#logout {
+  background-color: #f76c6c;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+main {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h1 {
+  font-size: 36px;
+  margin-top: 0;
+}
+
+p {
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+#logout {
+  margin-left: auto;
+}
+
+/* Specific styles */
+header nav a:hover {
+  text-decoration: underline;
+}
+
+header nav li.current a {
+  font-weight: bold;
+}
+
+/* Table styles */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+table th,
+table td {
+  padding: 10px;
+  text-align: center;
+  border: 1px solid #333;
+}
+
+table th {
+  background-color: #333;
+  color: #fff;
+}
+
+table tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+table tr:hover {
+  background-color: #ddd;
+}
+
+/* view_post.css */
+.post-container {
+  background-color: #fff;
+  padding: 2rem;
+  border-radius: 5px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+}
+
+.post-field {
+  margin-bottom: 1.5rem;
+}
+
+.post-field label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+.post-field p,
+.post-field ul {
+  margin: 0;
+}
+
+.post-field ul {
+  padding-left: 20px;
+}
+
+.post-field ul li {
+  list-style-type: disc;
+}
+
+.back-btn {
+  display: inline-block;
+  padding: 8px 16px;
+  background-color: #333;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+}

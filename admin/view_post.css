@@ -1,0 +1,140 @@
+/* style.css */
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+  }
+  
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 1rem;
+  }
+  
+  header nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  #home{
+    margin-top: 0.4rem;
+    margin-left: 1rem;
+  }
+  
+  header nav ul li {
+    display: inline;
+    margin-right: 2rem;
+  }
+  
+  header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    
+  }
+  
+  header nav ul li#logout {
+    background-color: #f76c6c;
+    padding: 5px 10px;
+    border-radius: 5px;
+  }
+  
+  main {
+    padding: 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  h1 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+  
+  .back-btn {
+    padding: 8px 16px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    float: right;
+    margin-top: 1rem;
+  }
+
+  .delete-btn {
+    padding: 8px 16px;
+    background-color: #b10000;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    float: right;
+    margin-top: 1rem;
+    margin-right: 1rem;
+    margin-bottom: 1rem;
+  }
+
+  .download-btn{
+    padding: 8px 16px;
+    background-color: #003eb1;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 1rem;
+    margin-right: 1rem;
+    margin-bottom: 1rem;
+  }
+  
+  
+  /* view_post.css */
+  .post-container {
+    background-color: #fff;
+    padding: 2rem;
+    border-radius: 5px;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  }
+  
+  .post-field {
+    margin-bottom: 1.5rem;
+  }
+  
+  .post-field label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+  }
+  
+  .post-field p,
+  .post-field ul {
+    margin: 0;
+  }
+  
+  .post-field ul {
+    padding-left: 20px;
+  }
+  
+  .post-field ul li {
+    list-style-type: disc;
+  }
+  
+
+  .download-btn {
+    display: inline-block;
+    background-color: #4caf51;
+    color: white;
+    padding: 8px 16px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 1s ease;
+  }
+  
+  .download-btn:hover {
+    background-color: #1b441c;
+  }
